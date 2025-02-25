@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Sign.css';
+import '../styles/Sign.module.css';
 
 function Login() {
     return (
