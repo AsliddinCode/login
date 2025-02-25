@@ -1,0 +1,109 @@
+.signUp{
+    width: 1536px;
+    height: 800px;
+    background-color: white;
+    display: flex;
+}
+.sign-picture img{
+    width: 781px;
+    height: 800px;
+    border-radius: 5px;
+}
+
+.sign{
+    width: 755px;
+    height: 800px;
+    padding: 0 175px        ;
+}
+.place{
+    width: 404px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 19px;
+    padding-left: 5px;
+}
+.get{
+    margin-bottom: 62px;
+}
+.part-4{
+    display: flex;
+}
+.term{
+    color: black;
+}
+.btnSign {
+    width: 414px;
+    height: 35px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;   
+    color: white;
+    margin-top: 30px;
+}
+.part-5{
+    display: flex;
+    width: 400px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 62px;
+}
+.hr-1{
+    width: 180px;
+
+}
+.btn{
+    width: 177px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.part-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part-6 button:nth-child(2){
+    margin-left: 23px;
+}
+.part-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-2 img{
+    width: 781px;
+    height: 800px;
+    border-radius: 5px;
+}
+.login{
+    display: flex;
+}
+.login-1{
+    width: 755px;
+    height: 800px;
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+.inp-1{
+    width: 404px;
+    height: 58px;
+}
+.welcome{
+    margin-bottom: 5px;
+}
+.enter{
+    margin-bottom: 59px;
+}
+.lab{
+    display: flex;
+    justify-content: space-between;
+}
+.lab a {
+    text-decoration: none;
+}
