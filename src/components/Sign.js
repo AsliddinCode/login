@@ -23,7 +23,7 @@ function Sign() {
                         <input type="checkbox" />
                         <p>I agree to the <a className={styles['term']} href="#">terms & policy</a></p>
                     </div>
-                    <button className={styles['btnSign']}>Login</button>
+                    <button className={styles['btnSign']}>Log in</button>
 
                     <div className={styles['part-5']}>
                         <div className={styles['hr-1']}><hr /></div>
