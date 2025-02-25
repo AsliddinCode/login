@@ -41,7 +41,7 @@ function Sign() {
                         </button>
                     </div>
                     <div className={styles['part-7']}>
-                        <p>Have an account? <a href="/register">Sign In</a></p>
+                        <p>Have an account? <Link href="/register">Sign In</Link></p>
                     </div>
                 </div>
             </div>

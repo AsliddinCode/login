@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Sign.module.css';
+import Link from 'next/link';
 
 function Login() {
     return (
@@ -15,7 +16,7 @@ function Login() {
                     <div className={styles['part-3']}>
                         <div className={styles['lab']}>
                             <label className={styles['lab']} htmlFor="password">Password</label>
-                            <a href="#">Forgot password</a>
+                            <Link href="#">Forgot password</Link>
                         </div>
                         <input className={styles['place']} placeholder='Enter your password' type="password" id="password" />
                     </div>
@@ -41,7 +42,7 @@ function Login() {
                         </button>
                     </div>
                     <div className={styles['part-7']}>
-                        <p>Don't have an account? <a href="/login">Sign Up</a></p>
+                        <p>Don't have an account? <Link href="/login">Sign Up</Link></p>
                     </div>
                 </div>
             </div>
