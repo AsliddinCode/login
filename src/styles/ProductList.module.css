@@ -1,0 +1,43 @@
+.fullCard {
+  width: 1300px;
+  background-color: white;
+}
+.img-p {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-p img {
+  width: 60px;
+  height: 60px;
+}
+.tdTh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-bucket {
+  margin: 0 43px;
+}
+.btn-count {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+}
+.name-hr:hover {
+  color: #f05a00;
+}
+.btn-count:hover {
+  color: #f05a00;
+  background-color: aliceblue;
+}
+.xbtn{
+  width: 30px;
+  height: 30px;
+}
+.xbtn:active{
+  background-color: white;
+  border: none;
+}
