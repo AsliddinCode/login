@@ -1,0 +1,67 @@
+.table {
+  width: 1440px;
+  margin: 0 auto;
+}
+.allPrice {
+  width: 310px;
+}
+.summa {
+  display: flex;
+  justify-content: space-between;
+}
+.ummumiy {
+  display: flex;
+  justify-content: space-between;
+}
+.ummumiyNarx {
+  display: flex;
+  margin: 0 auto;
+}
+.oformel {
+  background-color: #f05a00;
+  color: white;
+  width: 280px;
+  height: 50px;
+  border: none;
+}
+.btn-ummiy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.check {
+  width: 1255px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.inp {
+  width: 200px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  border: 0;
+}
+.formbtn {
+  width: 150px;
+  height: 20px;
+  color: white;
+  background-color: #f05a00;
+  border-radius: 3px;
+  border: none;
+}
+
+.formbtn:active {
+  width: 150px;
+  height: 20px;
+  color: #f05a00;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.for {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}

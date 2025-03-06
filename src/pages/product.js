@@ -1,8 +1,6 @@
 import Head from "next/head";
-import { Geist, Geist_Mono } from "next/font/google";
-import Login from "@/components/Login";
-import Sign from "@/components/Sign";
-export default function Home() {
+import Product from "../components/Products";
+export default function LoginPage() {
   return (
     <>
       <Head>
@@ -11,9 +9,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     <div>
-      <p>HI</p>
-     </div>
+      <div>
+        <Product />
+      </div>
     </>
   );
 }
